@@ -1,0 +1,242 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.el-popconfirm__main {
+  margin: 14px 0;
+}
+@media screen and (min-width: 768px) {
+  /*定义滚动条高宽及背景
+  高宽分别对应横竖滚动条的尺寸*/
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+    background-color: #f5f5f5;
+  }
+  /*定义滚动条轨道
+  内阴影+圆角*/
+  ::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: #f5f5f5;
+  }
+  /*定义滑块
+  内阴影+圆角*/
+  ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+.ml10 {
+  margin-left: 10px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.w100 {
+  width: 100px;
+}
+.h100 {
+  height: 100px;
+}
+.ml20 {
+  margin-left: 20px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.w200 {
+  width: 200px;
+}
+.h200 {
+  height: 200px;
+}
+.ml30 {
+  margin-left: 30px;
+}
+.mr30 {
+  margin-right: 30px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.w300 {
+  width: 300px;
+}
+.h300 {
+  height: 300px;
+}
+.ml40 {
+  margin-left: 40px;
+}
+.mr40 {
+  margin-right: 40px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.w400 {
+  width: 400px;
+}
+.h400 {
+  height: 400px;
+}
+.ml50 {
+  margin-left: 50px;
+}
+.mr50 {
+  margin-right: 50px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.mb50 {
+  margin-bottom: 50px;
+}
+.w500 {
+  width: 500px;
+}
+.h500 {
+  height: 500px;
+}
+.ml60 {
+  margin-left: 60px;
+}
+.mr60 {
+  margin-right: 60px;
+}
+.mt60 {
+  margin-top: 60px;
+}
+.mb60 {
+  margin-bottom: 60px;
+}
+.w600 {
+  width: 600px;
+}
+.h600 {
+  height: 600px;
+}
+.ml70 {
+  margin-left: 70px;
+}
+.mr70 {
+  margin-right: 70px;
+}
+.mt70 {
+  margin-top: 70px;
+}
+.mb70 {
+  margin-bottom: 70px;
+}
+.w700 {
+  width: 700px;
+}
+.h700 {
+  height: 700px;
+}
+.ml80 {
+  margin-left: 80px;
+}
+.mr80 {
+  margin-right: 80px;
+}
+.mt80 {
+  margin-top: 80px;
+}
+.mb80 {
+  margin-bottom: 80px;
+}
+.w800 {
+  width: 800px;
+}
+.h800 {
+  height: 800px;
+}
+.ml90 {
+  margin-left: 90px;
+}
+.mr90 {
+  margin-right: 90px;
+}
+.mt90 {
+  margin-top: 90px;
+}
+.mb90 {
+  margin-bottom: 90px;
+}
+.w900 {
+  width: 900px;
+}
+.h900 {
+  height: 900px;
+}
+.ml100 {
+  margin-left: 100px;
+}
+.mr100 {
+  margin-right: 100px;
+}
+.mt100 {
+  margin-top: 100px;
+}
+.mb100 {
+  margin-bottom: 100px;
+}
+.w1000 {
+  width: 1000px;
+}
+.h1000 {
+  height: 1000px;
+}
+.full-width {
+  width: 100%;
+}
+.el-table__header-wrapper th,
+.el-table th.el-table__cell,
+.el-table__fixed-header-wrapper th {
+  background: #dfe4ea;
+  color: #000;
+}
+.el-textarea .el-input__count {
+  background: transparent;
+  pointer-events: none;
+}
+.el-textarea__inner {
+  padding-bottom: 30px;
+}
+.hide {
+  display: none!important;
+}
+.text-right {
+  text-align: right;
+}
+.page {
+  text-align: right;
+  margin-top: 10px;
+}
