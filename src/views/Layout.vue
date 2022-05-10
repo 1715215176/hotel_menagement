@@ -181,9 +181,9 @@ export default {
   mounted() {
     this.activeName = localStorage.getItem("activeName") || "Home";
     this.breadcrumb = this.getTree(this.activeName);
-    this.userInfo = JSON.parse(localStorage.getItem("hotelUserInfo"));
     this.$nextTick(() => {
-      this.menuList = this.$router.options.routes;
+      this.menuList = JSON.parse(JSON.stringify(this.$router.options.routes));
+      this.userInfo = JSON.parse(localStorage.getItem("hotelUserInfo"));
       this.getPrivilegeList();
     });
   },
